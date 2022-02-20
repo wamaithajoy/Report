@@ -1,14 +1,46 @@
-fun main(){
-    var name: String=("Leticia Wamaitha")
-    println(name)
-    var age=(23)
-    println(age)
-    var phonenumber: String=("0707161168")
-    println(phonenumber)
-    var weight_in_kg=64
-    println(weight_in_kg)
-    var Uganda: Boolean=true
-    println(Uganda)
-
-
+fun main() {
+    var printName = ("Hello Joy")
+    println(printName)
+    var result= getRemainder(7,3)
+    println(result)
+    var sum= sum(5,6,8,2)
+    println(sum)
+    printInterestingFunFact("football")
 }
+
+
+
+
+    fun printName(name: String){
+        println("Hello"  +" " + name)
+
+    }
+    fun getRemainder(num1:Int,num2:Int):Int{
+        var modulus =num1 % num2
+        return modulus
+    }
+fun sum(a:Int,b:Int,c:Int,d:Int):Int{
+    var sum =a+b+c+d
+    return sum
+}
+fun printInterestingFunFact(fact:String){
+    println("I love" + " " + fact)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
